@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  min-width: 375px;
+  overflow-x: hidden;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+p{
+  padding: 0;
+}
+ul {
+  list-style: none;
+  cursor: pointer;
+}
